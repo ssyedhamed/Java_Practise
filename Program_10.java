@@ -12,6 +12,6 @@ public class Program_10 {
         double x=sc.nextInt();
         double b=x*x;
         double c=sc.nextInt();
-        System.out.println("Roots are: \n"+((-b+(sqrt((b*b)))-4*a*c))/(2*a));
+        System.out.println("Roots are: \n"+((-b+(Math.sqrt(Math.pow(b,2))-4*a*c))/(2*a));
     }
 }
